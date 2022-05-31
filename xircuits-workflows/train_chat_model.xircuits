@@ -1,0 +1,896 @@
+{
+    "id": "e1ccd0b5-4073-42d9-b24a-0abf85779a61",
+    "offsetX": 21.68740045799403,
+    "offsetY": -2.5082547169810248,
+    "zoom": 118.74999999999996,
+    "gridSize": 0,
+    "layers": [
+        {
+            "id": "4889c501-a107-4ff5-a6c3-2a00dbb8587c",
+            "type": "diagram-links",
+            "isSvg": true,
+            "transformed": true,
+            "models": {
+                "1f674970-44c3-406f-98fb-dcc1d8d4137c": {
+                    "id": "1f674970-44c3-406f-98fb-dcc1d8d4137c",
+                    "type": "triangle",
+                    "selected": false,
+                    "source": "9b050e30-78c8-42e4-8c69-9e59d892d840",
+                    "sourcePort": "cfc8efff-c616-482e-9dfb-b07073312298",
+                    "target": "8ea4c083-6313-4ebf-af66-e1e41b69755c",
+                    "targetPort": "61d23d38-ce20-400e-a9a3-d740066c0ce5",
+                    "points": [
+                        {
+                            "id": "796662d9-5215-4cb2-9925-a925a7a24dcb",
+                            "type": "point",
+                            "x": 138.388916015625,
+                            "y": 134.63888549804688
+                        },
+                        {
+                            "id": "c5320c7d-0a96-437b-a17a-3c6a9dadf4cf",
+                            "type": "point",
+                            "x": 189.97222900390625,
+                            "y": 134.63888549804688
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "6a190a0e-4467-49c9-844a-4b32f688f973": {
+                    "id": "6a190a0e-4467-49c9-844a-4b32f688f973",
+                    "type": "triangle",
+                    "selected": false,
+                    "source": "8ea4c083-6313-4ebf-af66-e1e41b69755c",
+                    "sourcePort": "19a1b29f-03b7-478b-bd0f-76130d123ccf",
+                    "target": "499d531b-7281-4df7-a410-e4eb6d89fd23",
+                    "targetPort": "6889fa06-1d6f-4e0e-ae5c-bc5132247618",
+                    "points": [
+                        {
+                            "id": "f32a7ea2-1e6f-4f05-a6d4-ae4a54789bc1",
+                            "type": "point",
+                            "x": 413.23614501953125,
+                            "y": 134.63888549804688
+                        },
+                        {
+                            "id": "9ae13a24-07ac-4a8e-8212-b762de50fb2b",
+                            "type": "point",
+                            "x": 457.97222900390625,
+                            "y": 135.63888549804688
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "d2663c11-d502-4316-bd3f-bb84bde731a8": {
+                    "id": "d2663c11-d502-4316-bd3f-bb84bde731a8",
+                    "type": "custom",
+                    "selected": false,
+                    "source": "71586520-3183-4c08-991e-045fd8c29cbc",
+                    "sourcePort": "2226ec65-9963-44a9-9f2e-2ae1320cb00e",
+                    "target": "8ea4c083-6313-4ebf-af66-e1e41b69755c",
+                    "targetPort": "baab2762-1e8c-4a1e-8abc-1c4996c5c85e",
+                    "points": [
+                        {
+                            "id": "9812e90c-ad31-4d4b-a435-1587b28b18fb",
+                            "type": "point",
+                            "x": 144.8055419921875,
+                            "y": 215.63888549804688
+                        },
+                        {
+                            "id": "7af3b3e9-ae71-4cd7-977d-53d4f661b3ae",
+                            "type": "point",
+                            "x": 189.97222900390625,
+                            "y": 150.63888549804688
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "a0b7a70d-22f5-4c11-ba71-b1fd6267d509": {
+                    "id": "a0b7a70d-22f5-4c11-ba71-b1fd6267d509",
+                    "type": "custom",
+                    "selected": false,
+                    "source": "8ea4c083-6313-4ebf-af66-e1e41b69755c",
+                    "sourcePort": "8f3377fe-1c84-445f-89cd-86b972f5c717",
+                    "target": "499d531b-7281-4df7-a410-e4eb6d89fd23",
+                    "targetPort": "c855c9e5-b362-47f2-9370-55338c05dd92",
+                    "points": [
+                        {
+                            "id": "42767017-4335-4538-b71e-ace3bd892bb4",
+                            "type": "point",
+                            "x": 413.23614501953125,
+                            "y": 150.63888549804688
+                        },
+                        {
+                            "id": "59517e61-7a08-442e-931a-46174afd42c7",
+                            "type": "point",
+                            "x": 457.97222900390625,
+                            "y": 151.63888549804688
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "f7afd583-2cdc-4644-994e-59d573a1ab64": {
+                    "id": "f7afd583-2cdc-4644-994e-59d573a1ab64",
+                    "type": "triangle",
+                    "selected": false,
+                    "source": "499d531b-7281-4df7-a410-e4eb6d89fd23",
+                    "sourcePort": "c7a6d8ff-9e8a-49d7-af5d-1a6133bfa700",
+                    "target": "13391354-02bc-495c-9c98-c3c7f80709fd",
+                    "targetPort": "21efabfb-c7f5-422b-820d-c367c037a233",
+                    "points": [
+                        {
+                            "id": "ca4638b3-7f61-4b24-84d8-7aeb6d44f4fd",
+                            "type": "point",
+                            "x": 688.5695190429688,
+                            "y": 135.63888549804688
+                        },
+                        {
+                            "id": "49f62432-e2d1-4d2b-a24f-71dc01baefd0",
+                            "type": "point",
+                            "x": 734.9722290039062,
+                            "y": 135.63888549804688
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "835fa30b-9d39-4dcb-8fcc-40444ccf6afc": {
+                    "id": "835fa30b-9d39-4dcb-8fcc-40444ccf6afc",
+                    "type": "triangle",
+                    "selected": false,
+                    "source": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                    "sourcePort": "5a4e7c62-acde-4aa8-87f9-8b04aa411c36",
+                    "target": "de9c0426-e3b4-49f9-a04b-a9b4136b7fcd",
+                    "targetPort": "0741c870-9caa-4723-b57f-ee5eee8b4b62",
+                    "points": [
+                        {
+                            "id": "0a887a29-db68-451a-878b-4d1f71ff0206",
+                            "type": "point",
+                            "x": 1146.3333129882812,
+                            "y": 291.6388854980469
+                        },
+                        {
+                            "id": "1b020a3e-e2a1-4714-9b32-5165f02659b2",
+                            "type": "point",
+                            "x": 1183.5000610351562,
+                            "y": 131.63888549804688
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "1f31d5fa-bc73-46e0-bc25-5c52e1de5d27": {
+                    "id": "1f31d5fa-bc73-46e0-bc25-5c52e1de5d27",
+                    "type": "custom",
+                    "selected": false,
+                    "source": "8ea4c083-6313-4ebf-af66-e1e41b69755c",
+                    "sourcePort": "59447cd3-b3ba-4f41-bf8c-e1dec03b031a",
+                    "target": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                    "targetPort": "91d7b328-8071-4357-89f3-e5e7c06b715c",
+                    "points": [
+                        {
+                            "id": "8b943e9d-06d8-42bd-9bf1-3a2404491850",
+                            "type": "point",
+                            "x": 413.23614501953125,
+                            "y": 166.63888549804688
+                        },
+                        {
+                            "id": "99fc07bd-b972-4a0e-b38f-cb7f7f98561a",
+                            "type": "point",
+                            "x": 973.9722290039062,
+                            "y": 339.6388854980469
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "2bdc5fb3-4b04-43ad-be50-139d0e145b98": {
+                    "id": "2bdc5fb3-4b04-43ad-be50-139d0e145b98",
+                    "type": "custom",
+                    "selected": false,
+                    "source": "499d531b-7281-4df7-a410-e4eb6d89fd23",
+                    "sourcePort": "b48b3ce2-255a-426b-9040-7f82132aa175",
+                    "target": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                    "targetPort": "28e18b04-7b39-4f49-858a-bc13e9663f86",
+                    "points": [
+                        {
+                            "id": "ed914f95-16b5-402c-ac30-7a0b3b4e287c",
+                            "type": "point",
+                            "x": 688.5695190429688,
+                            "y": 151.63888549804688
+                        },
+                        {
+                            "id": "6d29efe0-5603-4e72-9416-a4ab075f0663",
+                            "type": "point",
+                            "x": 973.9722290039062,
+                            "y": 323.6388854980469
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "600a73ed-8a6a-461e-b733-07f66773bd6b": {
+                    "id": "600a73ed-8a6a-461e-b733-07f66773bd6b",
+                    "type": "triangle",
+                    "selected": false,
+                    "source": "13391354-02bc-495c-9c98-c3c7f80709fd",
+                    "sourcePort": "a8f5a7e0-d509-4559-82c6-2329356e508c",
+                    "target": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                    "targetPort": "ebf64d58-a229-4583-9c49-56d5cd77626b",
+                    "points": [
+                        {
+                            "id": "61fb1c63-656a-48e0-89a9-28b4fe83b84f",
+                            "type": "point",
+                            "x": 922.1806030273438,
+                            "y": 135.63888549804688
+                        },
+                        {
+                            "id": "ef52edc0-b742-4bf3-8c45-ae267131164b",
+                            "type": "point",
+                            "x": 973.9722290039062,
+                            "y": 291.6388854980469
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                },
+                "72b1b9e7-41d1-43a2-a36d-2b92148a9cf0": {
+                    "id": "72b1b9e7-41d1-43a2-a36d-2b92148a9cf0",
+                    "type": "custom",
+                    "selected": false,
+                    "source": "13391354-02bc-495c-9c98-c3c7f80709fd",
+                    "sourcePort": "74a4cc55-5f25-461e-8714-b3d5fcd76d30",
+                    "target": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                    "targetPort": "467021c2-a1da-4392-90f0-625cce120816",
+                    "points": [
+                        {
+                            "id": "7d09b833-752c-4541-a5da-1b4faa3ca148",
+                            "type": "point",
+                            "x": 922.1806030273438,
+                            "y": 151.63888549804688
+                        },
+                        {
+                            "id": "409db724-13f2-448c-8518-1fc80e8b8ae4",
+                            "type": "point",
+                            "x": 973.9722290039062,
+                            "y": 307.6388854980469
+                        }
+                    ],
+                    "labels": [],
+                    "width": 3,
+                    "color": "gray",
+                    "curvyness": 50,
+                    "selectedColor": "rgb(0,192,255)"
+                }
+            }
+        },
+        {
+            "id": "da400424-7d34-4c95-9c18-524742059ac9",
+            "type": "diagram-nodes",
+            "isSvg": false,
+            "transformed": true,
+            "models": {
+                "9b050e30-78c8-42e4-8c69-9e59d892d840": {
+                    "id": "9b050e30-78c8-42e4-8c69-9e59d892d840",
+                    "type": "custom-node",
+                    "selected": false,
+                    "extras": {
+                        "type": "Start",
+                        "borderColor": "rgb(0,192,255)"
+                    },
+                    "x": 100,
+                    "y": 100,
+                    "ports": [
+                        {
+                            "id": "cfc8efff-c616-482e-9dfb-b07073312298",
+                            "type": "default",
+                            "x": 130.888916015625,
+                            "y": 127.13888549804688,
+                            "name": "out-0",
+                            "alignment": "right",
+                            "parentNode": "9b050e30-78c8-42e4-8c69-9e59d892d840",
+                            "links": [
+                                "1f674970-44c3-406f-98fb-dcc1d8d4137c"
+                            ],
+                            "in": false,
+                            "label": "▶"
+                        }
+                    ],
+                    "name": "Start",
+                    "color": "rgb(255,102,102)",
+                    "portsInOrder": [],
+                    "portsOutOrder": [
+                        "cfc8efff-c616-482e-9dfb-b07073312298"
+                    ]
+                },
+                "de9c0426-e3b4-49f9-a04b-a9b4136b7fcd": {
+                    "id": "de9c0426-e3b4-49f9-a04b-a9b4136b7fcd",
+                    "type": "custom-node",
+                    "selected": false,
+                    "extras": {
+                        "type": "Finish",
+                        "borderColor": "rgb(0,192,255)"
+                    },
+                    "x": 1174,
+                    "y": 97,
+                    "ports": [
+                        {
+                            "id": "0741c870-9caa-4723-b57f-ee5eee8b4b62",
+                            "type": "default",
+                            "x": 1176.0000610351562,
+                            "y": 124.13888549804688,
+                            "name": "in-0",
+                            "alignment": "left",
+                            "parentNode": "de9c0426-e3b4-49f9-a04b-a9b4136b7fcd",
+                            "links": [
+                                "835fa30b-9d39-4dcb-8fcc-40444ccf6afc"
+                            ],
+                            "in": true,
+                            "label": "▶"
+                        }
+                    ],
+                    "name": "Finish",
+                    "color": "rgb(255,102,102)",
+                    "portsInOrder": [
+                        "0741c870-9caa-4723-b57f-ee5eee8b4b62"
+                    ],
+                    "portsOutOrder": []
+                },
+                "8ea4c083-6313-4ebf-af66-e1e41b69755c": {
+                    "id": "8ea4c083-6313-4ebf-af66-e1e41b69755c",
+                    "type": "custom-node",
+                    "selected": false,
+                    "extras": {
+                        "type": "preprocess",
+                        "path": "xai_components/xai_chatbot/component_code.py",
+                        "description": "Load CSV file that provides the 'patterns', 'intents', and 'responses'. To edit the training data, you may add/delete row/pattern/response to the existing 'resource/sample.csv' or provide your own CSV file. Pattern is the possible user input and intent is the user intention(label). The model would try to match a particular input with its known intent. Response is the texts to send to user based on their input.\nParameters:\n    csv_file_path (str): Path to the CSV file that has columns 'patterns', 'intents', and 'responses' which provides the training sentences, label and responses to the particalur label respectively.\nReturns:\n    sentences (list): List of sentences for training. Extracted from column 'pattern'.\n    training_labels (array): Array of encoded label for training. Extracted from column 'intents'.\n    responses (dict): Dictionary of label and responses pairs for inference. Extracted from column 'intents' and 'responses'.",
+                        "borderColor": "rgb(0,192,255)"
+                    },
+                    "x": 180.47222900390625,
+                    "y": 100,
+                    "ports": [
+                        {
+                            "id": "61d23d38-ce20-400e-a9a3-d740066c0ce5",
+                            "type": "default",
+                            "x": 182.47222900390625,
+                            "y": 127.13888549804688,
+                            "name": "in-0",
+                            "alignment": "left",
+                            "parentNode": "8ea4c083-6313-4ebf-af66-e1e41b69755c",
+                            "links": [
+                                "1f674970-44c3-406f-98fb-dcc1d8d4137c"
+                            ],
+                            "in": true,
+                            "label": "▶"
+                        },
+                        {
+                            "id": "19a1b29f-03b7-478b-bd0f-76130d123ccf",
+                            "type": "default",
+                            "x": 405.73614501953125,
+                            "y": 127.13888549804688,
+                            "name": "out-0",
+                            "alignment": "right",
+                            "parentNode": "8ea4c083-6313-4ebf-af66-e1e41b69755c",
+                            "links": [
+                                "6a190a0e-4467-49c9-844a-4b32f688f973"
+                            ],
+                            "in": false,
+                            "label": "▶"
+                        },
+                        {
+                            "id": "baab2762-1e8c-4a1e-8abc-1c4996c5c85e",
+                            "type": "default",
+                            "x": 182.47222900390625,
+                            "y": 143.13888549804688,
+                            "name": "parameter-string-csv_file_path",
+                            "alignment": "left",
+                            "parentNode": "8ea4c083-6313-4ebf-af66-e1e41b69755c",
+                            "links": [
+                                "d2663c11-d502-4316-bd3f-bb84bde731a8"
+                            ],
+                            "in": true,
+                            "label": "★csv_file_path"
+                        },
+                        {
+                            "id": "8f3377fe-1c84-445f-89cd-86b972f5c717",
+                            "type": "default",
+                            "x": 405.73614501953125,
+                            "y": 143.13888549804688,
+                            "name": "parameter-out-list-sentences",
+                            "alignment": "right",
+                            "parentNode": "8ea4c083-6313-4ebf-af66-e1e41b69755c",
+                            "links": [
+                                "a0b7a70d-22f5-4c11-ba71-b1fd6267d509"
+                            ],
+                            "in": false,
+                            "label": "sentences"
+                        },
+                        {
+                            "id": "59447cd3-b3ba-4f41-bf8c-e1dec03b031a",
+                            "type": "default",
+                            "x": 405.73614501953125,
+                            "y": 159.13888549804688,
+                            "name": "parameter-out-any-training_labels",
+                            "alignment": "right",
+                            "parentNode": "8ea4c083-6313-4ebf-af66-e1e41b69755c",
+                            "links": [
+                                "1f31d5fa-bc73-46e0-bc25-5c52e1de5d27"
+                            ],
+                            "in": false,
+                            "label": "training_labels"
+                        },
+                        {
+                            "id": "9ac08534-5a1f-432b-958c-f2b3a5b420f2",
+                            "type": "default",
+                            "x": 405.73614501953125,
+                            "y": 175.13888549804688,
+                            "name": "parameter-out-any-responses",
+                            "alignment": "right",
+                            "parentNode": "8ea4c083-6313-4ebf-af66-e1e41b69755c",
+                            "links": [],
+                            "in": false,
+                            "label": "responses"
+                        }
+                    ],
+                    "name": "LoadData",
+                    "color": "rgb(153,0,102)",
+                    "portsInOrder": [
+                        "61d23d38-ce20-400e-a9a3-d740066c0ce5",
+                        "baab2762-1e8c-4a1e-8abc-1c4996c5c85e"
+                    ],
+                    "portsOutOrder": [
+                        "19a1b29f-03b7-478b-bd0f-76130d123ccf",
+                        "8f3377fe-1c84-445f-89cd-86b972f5c717",
+                        "59447cd3-b3ba-4f41-bf8c-e1dec03b031a",
+                        "9ac08534-5a1f-432b-958c-f2b3a5b420f2"
+                    ]
+                },
+                "499d531b-7281-4df7-a410-e4eb6d89fd23": {
+                    "id": "499d531b-7281-4df7-a410-e4eb6d89fd23",
+                    "type": "custom-node",
+                    "selected": false,
+                    "extras": {
+                        "type": "preprocess",
+                        "path": "xai_components/xai_chatbot/component_code.py",
+                        "description": "Tokenizer that turns the texts into space-separated sequences of words (by default all punctuations will be removed), and these sequences are then split into lists of tokens.\nParameters:\n    sentences (list): List of sentences (sentences from `load_data`).\n    vocab_size (int): Default: 1000. The maximum number of words to keep, based on word frequency. Only the most common num_words-1 words will be kept. Words out of vocabulary will be given \"<OOV>\"/out of vocabulary token.\n    max_len (int): Default: 20. Maximum length of all sequences. If 'None', sequences will be padded to the length of the longest individual sequence.\nReturns:\n    training_sentences (array): Array of list of sequences (each sequence is a list of integers).",
+                        "borderColor": "rgb(0,192,255)"
+                    },
+                    "x": 448.47222900390625,
+                    "y": 101,
+                    "ports": [
+                        {
+                            "id": "6889fa06-1d6f-4e0e-ae5c-bc5132247618",
+                            "type": "default",
+                            "x": 450.47222900390625,
+                            "y": 128.13888549804688,
+                            "name": "in-0",
+                            "alignment": "left",
+                            "parentNode": "499d531b-7281-4df7-a410-e4eb6d89fd23",
+                            "links": [
+                                "6a190a0e-4467-49c9-844a-4b32f688f973"
+                            ],
+                            "in": true,
+                            "label": "▶"
+                        },
+                        {
+                            "id": "c7a6d8ff-9e8a-49d7-af5d-1a6133bfa700",
+                            "type": "default",
+                            "x": 681.0695190429688,
+                            "y": 128.13888549804688,
+                            "name": "out-0",
+                            "alignment": "right",
+                            "parentNode": "499d531b-7281-4df7-a410-e4eb6d89fd23",
+                            "links": [
+                                "f7afd583-2cdc-4644-994e-59d573a1ab64"
+                            ],
+                            "in": false,
+                            "label": "▶"
+                        },
+                        {
+                            "id": "c855c9e5-b362-47f2-9370-55338c05dd92",
+                            "type": "default",
+                            "x": 450.47222900390625,
+                            "y": 144.13888549804688,
+                            "name": "parameter-list-sentences",
+                            "alignment": "left",
+                            "parentNode": "499d531b-7281-4df7-a410-e4eb6d89fd23",
+                            "links": [
+                                "a0b7a70d-22f5-4c11-ba71-b1fd6267d509"
+                            ],
+                            "in": true,
+                            "label": "★sentences"
+                        },
+                        {
+                            "id": "9508d91f-bb0a-4089-b02c-80607b064e03",
+                            "type": "default",
+                            "x": 450.47222900390625,
+                            "y": 160.13888549804688,
+                            "name": "parameter-int-vocab_size",
+                            "alignment": "left",
+                            "parentNode": "499d531b-7281-4df7-a410-e4eb6d89fd23",
+                            "links": [],
+                            "in": true,
+                            "label": "vocab_size"
+                        },
+                        {
+                            "id": "c51d40c3-6c70-4f56-9401-28850f2887f3",
+                            "type": "default",
+                            "x": 450.47222900390625,
+                            "y": 176.13888549804688,
+                            "name": "parameter-int-max_len",
+                            "alignment": "left",
+                            "parentNode": "499d531b-7281-4df7-a410-e4eb6d89fd23",
+                            "links": [],
+                            "in": true,
+                            "label": "max_len"
+                        },
+                        {
+                            "id": "b48b3ce2-255a-426b-9040-7f82132aa175",
+                            "type": "default",
+                            "x": 681.0695190429688,
+                            "y": 144.13888549804688,
+                            "name": "parameter-out-any-training_sentences",
+                            "alignment": "right",
+                            "parentNode": "499d531b-7281-4df7-a410-e4eb6d89fd23",
+                            "links": [
+                                "2bdc5fb3-4b04-43ad-be50-139d0e145b98"
+                            ],
+                            "in": false,
+                            "label": "training_sentences"
+                        }
+                    ],
+                    "name": "Tokenize",
+                    "color": "rgb(102,51,102)",
+                    "portsInOrder": [
+                        "6889fa06-1d6f-4e0e-ae5c-bc5132247618",
+                        "c855c9e5-b362-47f2-9370-55338c05dd92",
+                        "9508d91f-bb0a-4089-b02c-80607b064e03",
+                        "c51d40c3-6c70-4f56-9401-28850f2887f3"
+                    ],
+                    "portsOutOrder": [
+                        "c7a6d8ff-9e8a-49d7-af5d-1a6133bfa700",
+                        "b48b3ce2-255a-426b-9040-7f82132aa175"
+                    ]
+                },
+                "71586520-3183-4c08-991e-045fd8c29cbc": {
+                    "id": "71586520-3183-4c08-991e-045fd8c29cbc",
+                    "type": "custom-node",
+                    "selected": false,
+                    "extras": {
+                        "type": "string"
+                    },
+                    "x": 14.47222900390625,
+                    "y": 181,
+                    "ports": [
+                        {
+                            "id": "2226ec65-9963-44a9-9f2e-2ae1320cb00e",
+                            "type": "default",
+                            "x": 137.3055419921875,
+                            "y": 208.13888549804688,
+                            "name": "out-0",
+                            "alignment": "right",
+                            "parentNode": "71586520-3183-4c08-991e-045fd8c29cbc",
+                            "links": [
+                                "d2663c11-d502-4316-bd3f-bb84bde731a8"
+                            ],
+                            "in": false,
+                            "label": "resource/sample.csv"
+                        }
+                    ],
+                    "name": "Literal String",
+                    "color": "rgb(15,255,255)",
+                    "portsInOrder": [],
+                    "portsOutOrder": [
+                        "2226ec65-9963-44a9-9f2e-2ae1320cb00e"
+                    ]
+                },
+                "13391354-02bc-495c-9c98-c3c7f80709fd": {
+                    "id": "13391354-02bc-495c-9c98-c3c7f80709fd",
+                    "type": "custom-node",
+                    "selected": false,
+                    "extras": {
+                        "type": "model",
+                        "path": "xai_components/xai_chatbot/component_code.py",
+                        "description": "Custom neural network model that takes traininig sentences and pass them through an Embedding layer, a Global Average Pooling 1D layer, a number of Dense layers (nn_layer) with 'relu' activation and lastly a Dense layer with 'softmax' activation.\nParameters:\n    embedding_dim (int): Default: 16. Length of the vector for each word in Embedding layer. Larger value encloses more information but may require higher computation power and may be redundant if dataset is small.\n    nn_layer (int): Default: 2. Number of Dense layers to build. Larger value can give better performance but may require higher computation power and may lead to model overfitting.\n    optimizer (str): Default: 'adam'. String (name of optimizer) or tf.keras.optimizer instance. See https://www.tensorflow.org/api_docs/python/tf/keras/optimizers.\n    loss (str): Default: 'sparse_categorical_crossentropy'. Loss function. May be a string (name of loss function), or a tf.keras.losses.Loss instance. See https://www.tensorflow.org/api_docs/python/tf/keras/losses.\n    metrics (list): Default: ['accuracy']. List of metrics to be evaluated by the model during training and testing. Each of this can be a string (name of a built-in function), function or a tf.keras.metrics.Metric instance. See https://www.tensorflow.org/api_docs/python/tf/keras/metrics.\nReturns:\n    model (tf.keras.Model): Compiled Keras model."
+                    },
+                    "x": 725.4722290039062,
+                    "y": 101,
+                    "ports": [
+                        {
+                            "id": "21efabfb-c7f5-422b-820d-c367c037a233",
+                            "type": "default",
+                            "x": 727.4722290039062,
+                            "y": 128.13888549804688,
+                            "name": "in-0",
+                            "alignment": "left",
+                            "parentNode": "13391354-02bc-495c-9c98-c3c7f80709fd",
+                            "links": [
+                                "f7afd583-2cdc-4644-994e-59d573a1ab64"
+                            ],
+                            "in": true,
+                            "label": "▶"
+                        },
+                        {
+                            "id": "a8f5a7e0-d509-4559-82c6-2329356e508c",
+                            "type": "default",
+                            "x": 914.6806030273438,
+                            "y": 128.13888549804688,
+                            "name": "out-0",
+                            "alignment": "right",
+                            "parentNode": "13391354-02bc-495c-9c98-c3c7f80709fd",
+                            "links": [
+                                "600a73ed-8a6a-461e-b733-07f66773bd6b"
+                            ],
+                            "in": false,
+                            "label": "▶"
+                        },
+                        {
+                            "id": "1976f2e0-5c3f-4873-bedc-e7bb025f8f9b",
+                            "type": "default",
+                            "x": 727.4722290039062,
+                            "y": 144.13888549804688,
+                            "name": "parameter-int-embedding_dim",
+                            "alignment": "left",
+                            "parentNode": "13391354-02bc-495c-9c98-c3c7f80709fd",
+                            "links": [],
+                            "in": true,
+                            "label": "embedding_dim"
+                        },
+                        {
+                            "id": "d7f6207a-e14a-4303-bf99-6d144a32239a",
+                            "type": "default",
+                            "x": 727.4722290039062,
+                            "y": 160.13888549804688,
+                            "name": "parameter-int-nn_layer",
+                            "alignment": "left",
+                            "parentNode": "13391354-02bc-495c-9c98-c3c7f80709fd",
+                            "links": [],
+                            "in": true,
+                            "label": "nn_layer"
+                        },
+                        {
+                            "id": "9a66bc54-9ea7-49cd-bfc4-9cb8da2b05cc",
+                            "type": "default",
+                            "x": 727.4722290039062,
+                            "y": 176.13888549804688,
+                            "name": "parameter-string-optimizer",
+                            "alignment": "left",
+                            "parentNode": "13391354-02bc-495c-9c98-c3c7f80709fd",
+                            "links": [],
+                            "in": true,
+                            "label": "optimizer"
+                        },
+                        {
+                            "id": "7a7adbd8-aa7f-4bff-8ce2-8dfb510f6a01",
+                            "type": "default",
+                            "x": 727.4722290039062,
+                            "y": 192.13888549804688,
+                            "name": "parameter-string-loss",
+                            "alignment": "left",
+                            "parentNode": "13391354-02bc-495c-9c98-c3c7f80709fd",
+                            "links": [],
+                            "in": true,
+                            "label": "loss"
+                        },
+                        {
+                            "id": "804a48c3-09f3-4c05-814f-b67bf6055cba",
+                            "type": "default",
+                            "x": 727.4722290039062,
+                            "y": 208.13888549804688,
+                            "name": "parameter-list-metrics",
+                            "alignment": "left",
+                            "parentNode": "13391354-02bc-495c-9c98-c3c7f80709fd",
+                            "links": [],
+                            "in": true,
+                            "label": "metrics"
+                        },
+                        {
+                            "id": "74a4cc55-5f25-461e-8714-b3d5fcd76d30",
+                            "type": "default",
+                            "x": 914.6806030273438,
+                            "y": 144.13888549804688,
+                            "name": "parameter-out-any-model",
+                            "alignment": "right",
+                            "parentNode": "13391354-02bc-495c-9c98-c3c7f80709fd",
+                            "links": [
+                                "72b1b9e7-41d1-43a2-a36d-2b92148a9cf0"
+                            ],
+                            "in": false,
+                            "label": "model"
+                        }
+                    ],
+                    "name": "CustomModel",
+                    "color": "rgb(153,51,204)",
+                    "portsInOrder": [
+                        "21efabfb-c7f5-422b-820d-c367c037a233",
+                        "1976f2e0-5c3f-4873-bedc-e7bb025f8f9b",
+                        "d7f6207a-e14a-4303-bf99-6d144a32239a",
+                        "9a66bc54-9ea7-49cd-bfc4-9cb8da2b05cc",
+                        "7a7adbd8-aa7f-4bff-8ce2-8dfb510f6a01",
+                        "804a48c3-09f3-4c05-814f-b67bf6055cba"
+                    ],
+                    "portsOutOrder": [
+                        "a8f5a7e0-d509-4559-82c6-2329356e508c",
+                        "74a4cc55-5f25-461e-8714-b3d5fcd76d30"
+                    ]
+                },
+                "12e6f9c4-efde-4029-b076-a9a8a0a53612": {
+                    "id": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                    "type": "custom-node",
+                    "selected": false,
+                    "extras": {
+                        "type": "model",
+                        "path": "xai_components/xai_chatbot/component_code.py",
+                        "description": "Train model.\nParameters:\n    model (tf.keras.Model): Compiled model. Use `custom_model` to build your model if you have not do so.\n    training_sentences (array): Array of list of sentences (user input) for training.\n    training_labels (array): Array of labels for each training sentence.\n    model_output_path (str): Default: 'chat_model/exp1'. The path to store your trained model.\n    epochs (int): Default: 500. Number of training iteration.\n    verbose (boolean): Default: True. Print each epoch result if True.\n    plot (boolean): Default: True. Plot graph if True."
+                    },
+                    "x": 964.4722290039062,
+                    "y": 257,
+                    "ports": [
+                        {
+                            "id": "ebf64d58-a229-4583-9c49-56d5cd77626b",
+                            "type": "default",
+                            "x": 966.4722290039062,
+                            "y": 284.1388854980469,
+                            "name": "in-0",
+                            "alignment": "left",
+                            "parentNode": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                            "links": [
+                                "600a73ed-8a6a-461e-b733-07f66773bd6b"
+                            ],
+                            "in": true,
+                            "label": "▶"
+                        },
+                        {
+                            "id": "5a4e7c62-acde-4aa8-87f9-8b04aa411c36",
+                            "type": "default",
+                            "x": 1138.8333129882812,
+                            "y": 284.1388854980469,
+                            "name": "out-0",
+                            "alignment": "right",
+                            "parentNode": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                            "links": [
+                                "835fa30b-9d39-4dcb-8fcc-40444ccf6afc"
+                            ],
+                            "in": false,
+                            "label": "▶"
+                        },
+                        {
+                            "id": "467021c2-a1da-4392-90f0-625cce120816",
+                            "type": "default",
+                            "x": 966.4722290039062,
+                            "y": 300.1388854980469,
+                            "name": "parameter-any-model",
+                            "alignment": "left",
+                            "parentNode": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                            "links": [
+                                "72b1b9e7-41d1-43a2-a36d-2b92148a9cf0"
+                            ],
+                            "in": true,
+                            "label": "★model"
+                        },
+                        {
+                            "id": "28e18b04-7b39-4f49-858a-bc13e9663f86",
+                            "type": "default",
+                            "x": 966.4722290039062,
+                            "y": 316.1388854980469,
+                            "name": "parameter-any-training_sentences",
+                            "alignment": "left",
+                            "parentNode": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                            "links": [
+                                "2bdc5fb3-4b04-43ad-be50-139d0e145b98"
+                            ],
+                            "in": true,
+                            "label": "★training_sentences"
+                        },
+                        {
+                            "id": "91d7b328-8071-4357-89f3-e5e7c06b715c",
+                            "type": "default",
+                            "x": 966.4722290039062,
+                            "y": 332.1388854980469,
+                            "name": "parameter-any-training_labels",
+                            "alignment": "left",
+                            "parentNode": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                            "links": [
+                                "1f31d5fa-bc73-46e0-bc25-5c52e1de5d27"
+                            ],
+                            "in": true,
+                            "label": "★training_labels"
+                        },
+                        {
+                            "id": "f561adcb-326a-4c28-b82e-eb443ba6b626",
+                            "type": "default",
+                            "x": 966.4722290039062,
+                            "y": 348.1388854980469,
+                            "name": "parameter-string-model_output_path",
+                            "alignment": "left",
+                            "parentNode": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                            "links": [],
+                            "in": true,
+                            "label": "model_output_path"
+                        },
+                        {
+                            "id": "f4828a8f-7560-42df-b484-f8f81574c9a3",
+                            "type": "default",
+                            "x": 966.4722290039062,
+                            "y": 364.1388854980469,
+                            "name": "parameter-int-epochs",
+                            "alignment": "left",
+                            "parentNode": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                            "links": [],
+                            "in": true,
+                            "label": "epochs"
+                        },
+                        {
+                            "id": "f71aca27-cc48-4867-ba77-e8afab237f2e",
+                            "type": "default",
+                            "x": 966.4722290039062,
+                            "y": 380.1388854980469,
+                            "name": "parameter-boolean-verbose",
+                            "alignment": "left",
+                            "parentNode": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                            "links": [],
+                            "in": true,
+                            "label": "verbose"
+                        },
+                        {
+                            "id": "1e8c55b4-8e88-43c8-96d6-9d7d518f8d1b",
+                            "type": "default",
+                            "x": 966.4722290039062,
+                            "y": 396.1388854980469,
+                            "name": "parameter-boolean-plot",
+                            "alignment": "left",
+                            "parentNode": "12e6f9c4-efde-4029-b076-a9a8a0a53612",
+                            "links": [],
+                            "in": true,
+                            "label": "plot"
+                        }
+                    ],
+                    "name": "Train",
+                    "color": "rgb(102,102,102)",
+                    "portsInOrder": [
+                        "ebf64d58-a229-4583-9c49-56d5cd77626b",
+                        "467021c2-a1da-4392-90f0-625cce120816",
+                        "28e18b04-7b39-4f49-858a-bc13e9663f86",
+                        "91d7b328-8071-4357-89f3-e5e7c06b715c",
+                        "f561adcb-326a-4c28-b82e-eb443ba6b626",
+                        "f4828a8f-7560-42df-b484-f8f81574c9a3",
+                        "f71aca27-cc48-4867-ba77-e8afab237f2e",
+                        "1e8c55b4-8e88-43c8-96d6-9d7d518f8d1b"
+                    ],
+                    "portsOutOrder": [
+                        "5a4e7c62-acde-4aa8-87f9-8b04aa411c36"
+                    ]
+                }
+            }
+        }
+    ]
+}

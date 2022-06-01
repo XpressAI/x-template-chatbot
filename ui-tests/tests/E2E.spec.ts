@@ -16,8 +16,9 @@ test('Should complete E2E test', async ({
   
   await page.locator('[aria-label="File\\ Browser\\ Section"] >> text=xircuits-workflows').dblclick();
   
-  // Click text=KerasModelPredict.xircuits
-  await page.locator('text=example_workflow.xircuits').dblclick()
+  // Check First Workflow
+  // Click text=TrainChatModel.xircuits
+  await page.locator('text=TrainChatModel.xircuits').dblclick()
 
   page.once('dialog', dialog => {
     console.log(`Dialog message: ${dialog.message()}`);
@@ -36,5 +37,27 @@ test('Should complete E2E test', async ({
   const content = await page.locator("text=Finish Executing").innerHTML()
 
   expect(content).toContain('Finish Executing')
+
+  // Check Second Workflow
+  // Click text=Inference.xircuits
+  await page.locator('text=Inference.xircuits').dblclick()
+
+  page.once('dialog', dialog => {
+    console.log(`Dialog message: ${dialog.message()}`);
+    dialog.dismiss().catch(() => {});
+  });
+
+  await page.locator("xpath=//*[contains(@title, 'Save (Ctrl+S)')]").first().click();
+  await page.locator("xpath=//*[contains(@title, 'Compile Xircuits')]").first().click();
+  await page.locator("xpath=//*[contains(@title, 'Compile and Run Xircuits')]").first().click();
+
+  // Start Xircuits
+  await page.locator('button:has-text("Start")').click();
+  // Select First Kernel
+  await page.locator('button:has-text("Select")').click();
+
+  const content2 = await page.locator("text=Finish Executing").innerHTML()
+
+  expect(content2).toContain('Finish Executing')
 
 });

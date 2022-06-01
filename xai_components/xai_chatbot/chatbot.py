@@ -281,24 +281,29 @@ class Train(Component):
 @xai_component(type="inference")
 class SingleInference(Component):
     """
-    Single sentence inference. Thie component take one text input and predict its intent.
+    Single sentence inference. This component take one text input and predict its intent. Also, gives a response if responses data is provided.
     Parameters:
         text (str): Input text for prediction.
+        responses (dict): Dictionary of label and responses pairs. If 'None', only model result will be returned. Use `load_data` to load responses from csv if you have not do so.
         model_path (str): Default: 'chat_model/exp1'. Path to inference model. Use training workflow to train a model if you have not do so.
     """
 
     text: InCompArg[str]
+    responses: InArg[any]
     model_path: InArg[str]
 
     def __init__(self):
 
         self.done = False
         self.text = InCompArg(None)
+        self.responses = InArg(None)
         self.model_path = InArg("chat_model/exp1")
 
     def execute(self, ctx) -> None:
         from tensorflow import keras
         import pickle
+
+        print("Input: ", self.text.value)
 
         exp_path = self.model_path.value
         model, tokenizer, lbl_encoder, max_len = load_model(exp_path)
@@ -312,7 +317,10 @@ class SingleInference(Component):
             )
         )
         tag = lbl_encoder.inverse_transform([np.argmax(result)])
-        print("Result: ", tag)
+        print("Result: ", tag[0])
+
+        if self.responses.value:
+            print("ChatBot:", np.random.choice(self.responses.value[tag[0]]))
 
         self.done = True
 

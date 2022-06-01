@@ -2,21 +2,20 @@
 
 This template allows you to train a chat model and start a chatbot in a terminal.
 
-It consists of these 6 components:
+It consists of 5 components:
 
-- Dataset preparation: Load and preprocess dataset.
+- Dataset preparation
 
-  - `LoadData` : Load CSV file that provides the 'patterns', 'intents', and 'responses'. To edit the training data, you may add/delete row/pattern/response to the existing 'resource/sample.csv' or provide your own CSV file path. See more at this [section](#training).
-  - `Tokenize` : Tokenizer that turns the texts into space-separated sequences of words (by default all punctuations will be removed), and these sequences are then split into lists of tokens.
+  - [LoadData](/xai_components/xai_chatbot/chatbot.py#L17) : Load CSV file that provides the `patterns`, `intents`, and `responses`. To edit the training data, you may add/delete row/pattern/response in the existing `resource/sample.csv` or provide your own CSV file path. See more at this [section](#training).
+  - [Tokenize](/xai_components/xai_chatbot/chatbot.py#L85) : Tokenizer that turns the texts into space-separated sequences of words (by default all punctuations will be removed), and these sequences are then split into lists of tokens.
 
-- Model training: Build and compile the model for training.
+- Model training
 
-  - `CustomModel` : Custom neural network model that takes traininig sentences and pass them through an Embedding layer, a Global Average Pooling 1D layer, a number of Dense layers (nn_layer) with 'relu' activation and lastly a Dense layer with 'softmax' activation.
-  - `Train` : Train model with defined epochs and save model at 'model_output_path'. 'training_sentences' and their correspend 'training_labels will be useed to train the model.
+  - [CustomModel](/xai_components/xai_chatbot/chatbot.py#L134) : Custom neural network model that consists of Embedding layer, a Global Average Pooling 1D layer, a number of Dense layers with _relu_ activation and lastly a Dense layer with _softmax_ activation. Optimizer, loss function and metric can be adjusted.
+  - [Train](/xai_components/xai_chatbot/chatbot.py#L193) : Train model with defined epochs number and save model at `model_output_path`. `training_sentences` and `training_labels` will be used to train the model.
 
-- Inference: Load model and do prediction.
-  - `SingleInference` : Single sentence inference. Thie component take one text input and predict its intent.
-  - `Chat` : Streaming inference. User can give input and chatbot will give response for predicted label based on the input.
+- Inference
+  - [SingleInference](/xai_components/xai_chatbot/chatbot.py#L282) : Single sentence inference. This component takes one text input and predicts its intent. Also, gives a response if responses data is provided.
 
 ## Prerequisites
 
@@ -30,7 +29,7 @@ Python 3.9
 git clone https://github.com/XpressAI/template-chatbot.git
 ```
 
-2. Create virtual environments and install the required python packages
+2. Create a virtual environment and install the required python packages
 
 ```
 pip install -r requirements.txt
@@ -46,7 +45,7 @@ xircuits
 
 ### Training
 
-#### [train_chat_model.xircuits](/xircuits-workflows/train_chat_model.xircuits)
+#### [TrainChatModel.xircuits](/xircuits-workflows/TrainChatModel.xircuits)
 
 Train a chat model that try to predict the intents based on sentences patterns.
 
@@ -64,13 +63,13 @@ See [resource/sample.csv](/resource/sample.csv) as dataset example.
 <details>
 <summary>How Can I Change the Training Data?</summary>
 
-To edit the training data, you may add/delete row/pattern/response to the existing `resource/sample.csv`. Or, provide your own CSV file and provide its path at `LoadData` input, `csv_file_path`. The input CSV file should provide these three columns `patterns`, `intents`, and `responses`.
+To edit the training data, you may add/delete row/pattern/response in the existing `resource/sample.csv`. Or, provide your own CSV file and provide its path at `LoadData` input, `csv_file_path`. The input CSV file should provide these three columns `patterns`, `intents`, and `responses`.
 
 Terms We Use
 
-- Patterns are training samples/possible user inputs for correspond intent.
-- Intents are user intentions, also training categories/labels.
-- Responses are response texts to send to user after getting the predicted tag from model with user input (only used during inference but not model training). See the workflow [chatbot.xircuits](/xircuits-workflows/chatbot.xircuits)
+- `Patterns` are training samples/possible user inputs for corresponding intent.
+- `Intents` are user intentions, also training categories/labels.
+- `Responses` are response texts to send to user after getting the predicted tag from model with user input (only used during inference but not model training). See the workflow [Inference.xircuits](/xircuits-workflows/Inference.xircuits)
 
 </details>
 
@@ -79,13 +78,8 @@ Example:
 
 ### Inference
 
-#### [inference.xircuits](/xircuits-workflows/inference.xircuits)
+#### [Inference.xircuits](/xircuits-workflows/Inference.xircuits)
 
 Single prediction on input text.<br>
 Example:
 ![single_inference](/resource/images/single_inference.gif)
-
-#### [chatbot.xircuits](/xircuits-workflows/chatbot.xircuits)
-
-Initiate a chatbot.<br>
-Example:

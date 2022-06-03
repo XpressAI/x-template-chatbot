@@ -1,0 +1,9 @@
+intents,patterns,responses
+greeting,"[""Hi"", ""Hey"", ""Is anyone there?"", ""Hello"", ""Hay""]","[""Hello"", ""Hi"", ""Hi there""]"
+goodbye,"[""Bye"", ""See you later"", ""Goodbye""]","[""See you later"", ""Have a nice day"", ""Bye! Come back again""]"
+thanks,"[""Thanks"", ""Thank you"", ""That's helpful"", ""Thanks for the help""]","[""Happy to help!"", ""Any time!"", ""My pleasure"", ""You're most welcome!""]"
+about,"[""Who are you?"", ""What are you?"", ""Who you are?"" ]","[""I'm Joana, your bot assistant"", ""I'm Joana, an Artificial Intelligent bot""]"
+name,"[""what is your name"", ""what should I call you"", ""whats your name?""]","[""You can call me Joana."", ""I'm Joana!"", ""Just call me as Joana""]"
+help,"[""Could you help me?"", ""give me a hand please"", ""Can you help?"", ""What can you do for me?"", ""I need a support"", ""I need a help"", ""support me please""]","[""Tell me how can I assist you"", ""Tell me your problem :>"", ""Yes sure! How can I support you""]"
+createaccount,"[""I need to create a new account"", ""how to open a new account"", ""I want to create an account"", ""can you create an account for me"", ""how to open a new account""]","[""You can just easily create a new account from our web site"", ""Just go to our web site and follow the guidelines to create a new account""]"
+complaint,"[""have a complaint"", ""I want to raise a complaint"", ""there is a complaint about a service""]","[""Please provide us your complaint in order to assist you"", ""Please mention your complaint, we will reach you and sorry for any inconvenience caused""]"

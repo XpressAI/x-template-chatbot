@@ -1,4 +1,4 @@
-# Xircuits Project Template
+# Chatbot Xircuits Project Template
 
 This template allows you to train a chat model and start a chatbot in a terminal.
 

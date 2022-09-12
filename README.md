@@ -26,13 +26,13 @@ Python 3.9
 1. Clone this repository
 
 ```
-git clone https://github.com/XpressAI/template-chatbot.git
+git clone https://github.com/XpressAI/template-chatbot
 ```
 
-2. Create a virtual environment and install the required python packages
+2. Run the setup script that creates a virtual environment and install the required python packages
 
 ```
-pip install -r requirements.txt
+bash setup.sh
 ```
 
 3. Run xircuits from the root directory

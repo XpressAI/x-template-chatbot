@@ -74,7 +74,7 @@ Terms We Use
 </details>
 
 Example:
-![model_training](/resource/images/model_training.gif)
+![model_training](https://github.com/XpressAI/x-template-chatbot/raw/main/resource/images/model_training.gif)
 
 ### Inference
 
@@ -82,4 +82,4 @@ Example:
 
 Single prediction on input text.<br>
 Example:
-![single_inference](/resource/images/single_inference.gif)
+![single_inference](https://github.com/XpressAI/x-template-chatbot/raw/main/resource/images/single_inference.gif)

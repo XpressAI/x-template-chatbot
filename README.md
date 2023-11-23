@@ -80,6 +80,6 @@ Example:
 
 #### [Inference.xircuits](/xircuits-workflows/Inference.xircuits)
 
-Single prediction on input text.<br>
+Single prediction on input text.<br/>
 Example:
 ![single_inference](https://github.com/XpressAI/x-template-chatbot/raw/main/resource/images/single_inference.gif)

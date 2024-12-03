@@ -30,14 +30,6 @@ class LoadData(Component):
     training_labels: OutArg[any]
     responses: OutArg[any]
 
-    def __init__(self):
-
-        self.done = False
-        self.csv_file_path = InCompArg(None)
-        self.sentences = OutArg(None)
-        self.training_labels = OutArg(None)
-        self.responses = OutArg(None)
-
     def execute(self, ctx) -> None:
         import copy
         from sklearn.preprocessing import LabelEncoder
@@ -99,12 +91,9 @@ class Tokenize(Component):
     training_sentences: OutArg[any]
 
     def __init__(self):
-
-        self.done = False
-        self.sentences = InCompArg(None)
-        self.vocab_size = InArg(1000)
-        self.max_len = InArg(20)
-        self.training_sentences = OutArg(None)
+        super().__init__() 
+        self.vocab_size.value = 1000
+        self.max_len.value = 20
 
     def execute(self, ctx) -> None:
         from tensorflow.keras.preprocessing.text import Tokenizer
@@ -152,14 +141,12 @@ class CustomModel(Component):
     model: OutArg[any]
 
     def __init__(self):
-
-        self.done = False
-        self.embedding_dim = InArg(16)
-        self.nn_layer = InArg(2)
-        self.optimizer = InArg("adam")
-        self.loss = InArg("sparse_categorical_crossentropy")
-        self.metrics = InArg(["accuracy"])
-        self.model = OutArg(None)
+        super().__init__()
+        self.embedding_dim.value = 16
+        self.nn_layer.value = 2
+        self.optimizer.value = "adam"
+        self.loss.value = "sparse_categorical_crossentropy"
+        self.metrics.value = ["accuracy"]
 
     def execute(self, ctx) -> None:
         import tensorflow as tf
@@ -212,15 +199,11 @@ class Train(Component):
     plot: InArg[bool]
 
     def __init__(self):
-
-        self.done = False
-        self.model = InCompArg(None)
-        self.training_sentences = InCompArg(None)
-        self.training_labels = InCompArg(None)
-        self.model_output_path = InArg("chat_model/exp1")
-        self.epochs = InArg(500)
-        self.verbose = InArg(True)
-        self.plot = InArg(True)
+        super().__init__()
+        self.model_output_path.value = "chat_model/exp1"
+        self.epochs.value = 500
+        self.verbose.value = True
+        self.plot.value =True
 
     def execute(self, ctx) -> None:
         # training
@@ -251,29 +234,35 @@ class Train(Component):
             plt.legend(["train", "test"], loc="upper left")
             plt.show()
 
-        # to save the trained model
-        output_path = self.model_output_path.value
-        if not os.path.exists(output_path):
-            # Create a new directory because it does not exist
-            os.makedirs(output_path)
-
-        model_path = os.path.join(output_path, "model")
-        model.save(model_path)
-
+        import os
         import pickle
 
-        # to save the fitted tokenizer
-        tokenizer = ctx["tokenizer"]
-        with open(os.path.join(output_path, "tokenizer.pickle"), "wb") as handle:
-            pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
+        model = self.model.value
+        output_path = os.path.join("saved_model", "model_chat", "model") 
 
-        # to save the fitted label encoder
+        dirname = os.path.dirname(output_path)
+        if len(dirname):
+            os.makedirs(dirname, exist_ok=True)
+
+        model_file_path = output_path 
+        model.save(model_file_path)
+        print(f"Saving model at: {model_file_path}")
+
+        ctx.update({'saved_model_path': model_file_path})
+
+        tokenizer = ctx["tokenizer"]
+        tokenizer_path = os.path.join(dirname, "tokenizer.pickle")
+        with open(tokenizer_path, "wb") as handle:
+            pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
+        print(f"Tokenizer saved at: {tokenizer_path}")
+
         lbl_encoder = ctx["lbl_encoder"]
-        with open(os.path.join(output_path, "label_encoder.pickle"), "wb") as ecn_file:
+        label_encoder_path = os.path.join(dirname, "label_encoder.pickle")
+        with open(label_encoder_path, "wb") as ecn_file:
             pickle.dump(lbl_encoder, ecn_file, protocol=pickle.HIGHEST_PROTOCOL)
+        print(f"Label Encoder saved at: {label_encoder_path}")
 
         self.done = True
-
 
 # ------------------------------------------------------------------------------
 #                                  Inference
@@ -293,11 +282,8 @@ class SingleInference(Component):
     model_path: InArg[str]
 
     def __init__(self):
-
-        self.done = False
-        self.text = InCompArg(None)
-        self.responses = InArg(None)
-        self.model_path = InArg("chat_model/exp1")
+        super().__init__() 
+        self.model_path.value = "chat_model/exp1"
 
     def execute(self, ctx) -> None:
         from tensorflow import keras
@@ -338,10 +324,8 @@ class Chat(Component):
     model_path: InArg[str]
 
     def __init__(self):
-
-        self.done = False
-        self.responses = InCompArg(None)
-        self.model_path = InArg("chat_model/exp1")
+        super().__init__() 
+        self.model_path.value = "chat_model/exp1"
 
     def execute(self, ctx) -> None:
         import random
